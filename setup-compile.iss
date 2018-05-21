@@ -11,7 +11,7 @@ AppCopyright=Copyright © 2018 SparrOSDeveloperTeam
 DefaultDirName={pf}\SparrOSAgent
 
 [Files]
-Source: "rosupdmgr.exe"; DestDir: "{app}
+Source: "rupdmgr.exe"; DestDir: "{app}
 
 [Icons]
 Name: "ReactOS Update"; Filename: "{app}\rosupdmgr.exe"
