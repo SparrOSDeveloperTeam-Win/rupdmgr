@@ -9,9 +9,10 @@ AppName=ReactOS Update Program
 AppVerName=ReactOS Update Program (5.1.2600)
 AppCopyright=Copyright © 2018 SparrOSDeveloperTeam
 DefaultDirName={pf}\SparrOSAgent
+DefaultGroupName=Update
 
 [Files]
-Source: "rupdmgr.exe"; DestDir: "{app}
+Source: "rupdmgr.exe"; DestDir: "{app}"
 
 [Icons]
-Name: "ReactOS Update"; Filename: "{app}\rosupdmgr.exe"
+Name: "{group}\ReactOS Update"; Filename: "{app}\rosupdmgr.exe"
